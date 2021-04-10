@@ -1,36 +1,40 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
-	<script type='text/javascript' src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script>
-	
-	<script type="text/javascript">
-        function initViz() {
-    var containerDiv = document.getElementById("vizContainer"),
-    url = "https://eu-west-1a.online.tableau.com/t/zzx/views/2/2?iframeSizedToWindow=true&:embed=y&:showAppBanner=true&:display_count=no&:showVizHome=no#1";
-
-    var viz = new tableau.Viz(containerDiv, url);
-}
-    </script>
+	<div class='tableauPlaceholder' id='viz1545899326556' style='position: relative'>
+		<noscript>
+			<a href='https://public.tableau.com/shared/KTR9BK3R3?:display_count=yes'>
+			<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;KT&#47;KTR9BK3R3&#47;1_rss.png' style='border: none' />
+			</a>
+		</noscript>
+		<object class='tableauViz'  style='display:none;'>
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+			<param name='embed_code_version' value='3' /> 
+			<param name='path' value='shared&#47;KTR9BK3R3' /> 
+			<param name='toolbar' value='yes' />
+			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;KT&#47;KTR9BK3R3&#47;1.png' /> <param name='animate_transition' value='yes' />
+			<param name='display_static_image' value='yes' />
+			<param name='display_spinner' value='yes' />
+			<param name='display_overlay' value='yes' />
+			<param name='display_count' value='yes' />
+		</object>
+	</div>                
+	<script type='text/javascript'>
+		var divElement = document.getElementById('viz1545899326556');  
+		var vizElement = divElement.getElementsByTagName('object')[0];  
+		vizElement.style.width='1000px';vizElement.style.height='827px';    
+		var scriptElement = document.createElement('script');     
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);    
+	</script>
 	
 </head>
 
 <body onload="initViz();">
-	<div class='tableauPlaceholder' style='width: 1000px; height: 827px;'>
-		<object class='tableauViz' width='1000' height='827' style='display:none;'>
-			<param name='filter' value=':original_view=yes'/>。
-			<param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' />
-			<param name='embed_code_version' value='3' /> 
-			<param name='site_root' value='&#47;t&#47;zzx' />
-			<param name='name' value='2&#47;2' />
-			<param name='tabs' value='no' />
-			<param name='toolbar' value='yes' />
-			<param name='device' value='phone' />
-			<param name='showAppBanner' value='false' />
-			<param name='filter' value='iframeSizedToWindow=true' />
-		</object>
-	</div>
+	
     <div id="vizContainer" style="width:100%; height:700px;"></div>
 </body>
+	
 
 </html>
