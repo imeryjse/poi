@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type='text/javascript' src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'></script>
+	
+	<script type="text/javascript">
+        function initViz() {
+    var containerDiv = document.getElementById("vizContainer"),
+    url = "https://eu-west-1a.online.tableau.com/t/zzx/views/2/2?iframeSizedToWindow=true&:embed=y&:showAppBanner=true&:display_count=no&:showVizHome=no#1";
+
+    var viz = new tableau.Viz(containerDiv, url);
+}
+    </script>
+	
+</head>
+
+<body onload="initViz();">
+	<div class='tableauPlaceholder' style='width: 1000px; height: 827px;'>
+		<object class='tableauViz' width='1000' height='827' style='display:none;'>
+			<param name='filter' value=':original_view=yes'/>。
+			<param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F' />
+			<param name='embed_code_version' value='3' /> 
+			<param name='site_root' value='&#47;t&#47;zzx' />
+			<param name='name' value='2&#47;2' />
+			<param name='tabs' value='no' />
+			<param name='toolbar' value='yes' />
+			<param name='device' value='phone' />
+			<param name='showAppBanner' value='false' />
+			<param name='filter' value='iframeSizedToWindow=true' />
+		</object>
+	</div>
+    <div id="vizContainer" style="width:100%; height:700px;"></div>
+</body>
+
+</html>
