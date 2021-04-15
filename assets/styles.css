@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */	
+h1{
+	margin-top:0.05rem;
+	color:#B14A4C;
+	font-size:4rem;
+	font-family:STXingkai;
+	font-weight:bold;
+	text-align: center;
+
+}
+.tableauPlaceholder1{
+	margin-top:8rem;
+	display:flex;
+	width: 100%;
+	display:inline-block;
+	margin-left:7.5rem;
+}
+.tableauPlaceholder2{
+	display:flex;
+	
+}
+.tableauPlaceholder3{
+	display:flex;
+}
+.tableauPlaceholder3{
+	display:flex;
+}
